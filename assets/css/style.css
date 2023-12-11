@@ -696,11 +696,11 @@ h6 {
 }
 
 .icons a {
-  
+
   text-decoration: none;
   /* text-transform: lowercase; */
   padding: 1%;
-  font-size:19px;
+  font-size: 19px;
   font-family: "Oswald", sans-serif;
   margin: 2px;
   text-align: left;
@@ -725,8 +725,8 @@ h6 {
   transition: all 0.5s;
 }
 
-.icons small{
-color: white;
+.icons small {
+  color: white;
 }
 
 .icons a:hover i {
@@ -877,9 +877,9 @@ color: white;
   font-weight: 700;
 }
 
-.bni{
-padding-top: 10%;
-padding-left: 25px;
+.bni {
+  padding-top: 10%;
+  padding-left: 25px;
 }
 
 #hero .btn-get-started {
@@ -930,7 +930,7 @@ padding-left: 25px;
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-next-icon, 
+#hero .carousel-control-next-icon,
 #hero .carousel-control-prev-icon {
   background: none;
   font-size: 30px;
@@ -950,8 +950,9 @@ padding-left: 25px;
 
 #hero .carousel-control-next {
   /* height: 50%; */
-  right:9%;
+  right: 9%;
 }
+
 
 #hero .carousel-control-next-icon:hover,
 #hero .carousel-control-prev-icon:hover {
@@ -982,11 +983,12 @@ padding-left: 25px;
   }
 
   #hero .carousel-control-prev,
-  #hero .carousel-control-next { 
+  #hero .carousel-control-next {
     width: 5%;
-   
+
   }
-  #hero .carousel-control-prev{
+
+  #hero .carousel-control-prev {
     left: 6%;
   }
 }
@@ -1007,50 +1009,54 @@ padding-left: 25px;
 }
 
 @media (max-height: 500px) {
-  #hero .heroCarousel{
+  #hero .heroCarousel {
     height: 120vh;
   }
 }
 
 @media (min-width: 320px) and (max-width:480px) {
 
-  section#hero{
+  section#hero {
     height: 40vh;
   }
 
-  #hero .carousel-item{
+  #hero .carousel-item {
     width: 100%;
     height: 100%;
   }
 
   #hero .carousel-control-prev,
-  #hero .carousel-control-next { 
+  #hero .carousel-control-next {
     width: 5%;
-   
-   
+
+
   }
-  #hero .carousel-control-prev{
+
+  #hero .carousel-control-prev {
     left: 6%;
     height: 90%;
   }
+
   #hero .carousel-control-next {
     height: 90%;
-    right:10%;
+    right: 10%;
   }
-  #hero .carousel-control-prev-icon{
+
+  #hero .carousel-control-prev-icon {
     right: 80px;
     height: 25px;
     font-size: 10px;
   }
-  #hero .carousel-control-next-icon{
+
+  #hero .carousel-control-next-icon {
     right: 9%;
     height: 10px;
     font-size: 13px;
   }
 
-  #hero .carousel-control-next-icon.bi.bi-chevron-right{
-  height: 10%;
-}
+  #hero .carousel-control-next-icon.bi.bi-chevron-right {
+    height: 10%;
+  }
 
 }
 
@@ -2382,6 +2388,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  /* width: 10%; */
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -2429,5 +2436,16 @@ section {
     float: none;
     text-align: center;
     padding: 2px 0;
+  }
+}
+
+@media only screen and (min-width: 150px) and (max-width:1200px) {
+
+  #footer .footer-top .footer-links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    width: 10%;
   }
 }
